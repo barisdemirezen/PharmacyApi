@@ -1,5 +1,6 @@
 ﻿using HtmlAgilityPack;
 using PharmacyApi.Data.Core;
+using PharmacyApi.Services.Common;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,11 +11,34 @@ namespace PharmacyApi.Services.Pharmacy
 {
     public class PharmacyServices : IPharmacyServices
     {
-        public IEnumerable<PharmacyData> GetPharmacyDatas()
+        private readonly ICommonServices _commonServices;
+        public PharmacyServices(ICommonServices commonServices)
         {
-            var url = "https://www.eczaneler.gen.tr/nobetci-izmir";
+            _commonServices = commonServices;
+        }
+
+        public IEnumerable<PharmacyData> GetPharmacyByCity(int cityId)
+        {
+            string cityNameShortCode = _commonServices.GetCityNameCode(cityId);
+            if (cityNameShortCode == null)
+                return Enumerable.Empty<PharmacyData>();
+
+            return GetPharmacyByCityCode(cityNameShortCode);
+        }
+
+        public IEnumerable<PharmacyData> GetPharmacyByCity(string cityNameShortCode)
+        {
+            return GetPharmacyByCityCode(cityNameShortCode);
+        }
+
+        private IEnumerable<PharmacyData> GetPharmacyByCityCode(string cityNameShortCode)
+        {
+            var url = $"https://www.eczaneler.gen.tr/nobetci-{cityNameShortCode}";
             var web = new HtmlWeb();
             var doc = web.Load(url);
+
+            if(web.StatusCode == System.Net.HttpStatusCode.NotFound)
+                return Enumerable.Empty<PharmacyData>();
 
             HtmlNodeCollection items = doc.DocumentNode.SelectNodes("//div[@id='nav-bugun']//tr");
             items.RemoveAt(0);
@@ -34,7 +58,7 @@ namespace PharmacyApi.Services.Pharmacy
                     Name = name,
                 });
             }
-            
+
             return result;
         }
     }

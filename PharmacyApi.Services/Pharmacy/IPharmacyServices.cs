@@ -9,6 +9,7 @@ namespace PharmacyApi.Services.Pharmacy
 {
     public interface IPharmacyServices
     {
-        public IEnumerable<PharmacyData> GetPharmacyDatas();
+        public IEnumerable<PharmacyData> GetPharmacyByCity(int cityId);
+        public IEnumerable<PharmacyData> GetPharmacyByCity(string cityNameShortCode);
     }
 }

@@ -1,0 +1,407 @@
+﻿[
+  {
+    "Id": 1,
+    "Name": "adana",
+    "NameCode": "adana"
+  },
+  {
+    "Id": 2,
+    "Name": "adiyaman",
+    "NameCode": "adiyaman"
+  },
+  {
+    "Id": 3,
+    "Name": "afyonkarahisar",
+    "NameCode": "afyonkarahisar"
+  },
+  {
+    "Id": 4,
+    "Name": "ağri",
+    "NameCode": "agri"
+  },
+  {
+    "Id": 5,
+    "Name": "amasya",
+    "NameCode": "amasya"
+  },
+  {
+    "Id": 6,
+    "Name": "ankara",
+    "NameCode": "ankara"
+  },
+  {
+    "Id": 7,
+    "Name": "antalya",
+    "NameCode": "antalya"
+  },
+  {
+    "Id": 8,
+    "Name": "artvin",
+    "NameCode": "artvin"
+  },
+  {
+    "Id": 9,
+    "Name": "aydin",
+    "NameCode": "aydin"
+  },
+  {
+    "Id": 10,
+    "Name": "balikesir",
+    "NameCode": "balikesir"
+  },
+  {
+    "Id": 11,
+    "Name": "bilecik",
+    "NameCode": "bilecik"
+  },
+  {
+    "Id": 12,
+    "Name": "bingöl",
+    "NameCode": "bingol"
+  },
+  {
+    "Id": 13,
+    "Name": "bitlis",
+    "NameCode": "bitlis"
+  },
+  {
+    "Id": 14,
+    "Name": "bolu",
+    "NameCode": "bolu"
+  },
+  {
+    "Id": 15,
+    "Name": "burdur",
+    "NameCode": "burdur"
+  },
+  {
+    "Id": 16,
+    "Name": "bursa",
+    "NameCode": "bursa"
+  },
+  {
+    "Id": 17,
+    "Name": "çanakkale",
+    "NameCode": "canakkale"
+  },
+  {
+    "Id": 18,
+    "Name": "çankiri",
+    "NameCode": "cankiri"
+  },
+  {
+    "Id": 19,
+    "Name": "çorum",
+    "NameCode": "corum"
+  },
+  {
+    "Id": 20,
+    "Name": "denizli",
+    "NameCode": "denizli"
+  },
+  {
+    "Id": 21,
+    "Name": "diyarbakir",
+    "NameCode": "diyarbakir"
+  },
+  {
+    "Id": 22,
+    "Name": "edirne",
+    "NameCode": "edirne"
+  },
+  {
+    "Id": 23,
+    "Name": "elaziğ",
+    "NameCode": "elazig"
+  },
+  {
+    "Id": 24,
+    "Name": "erzincan",
+    "NameCode": "erzincan"
+  },
+  {
+    "Id": 25,
+    "Name": "erzurum",
+    "NameCode": "erzurum"
+  },
+  {
+    "Id": 26,
+    "Name": "eskişehir",
+    "NameCode": "eskisehir"
+  },
+  {
+    "Id": 27,
+    "Name": "gaziantep",
+    "NameCode": "gaziantep"
+  },
+  {
+    "Id": 28,
+    "Name": "giresun",
+    "NameCode": "giresun"
+  },
+  {
+    "Id": 29,
+    "Name": "gümüşhane",
+    "NameCode": "gumushane"
+  },
+  {
+    "Id": 30,
+    "Name": "hakkari",
+    "NameCode": "hakkari"
+  },
+  {
+    "Id": 31,
+    "Name": "hatay",
+    "NameCode": "hatay"
+  },
+  {
+    "Id": 32,
+    "Name": "isparta",
+    "NameCode": "isparta"
+  },
+  {
+    "Id": 33,
+    "Name": "mersin",
+    "NameCode": "mersin"
+  },
+  {
+    "Id": 34,
+    "Name": "istanbul",
+    "NameCode": "istanbul"
+  },
+  {
+    "Id": 35,
+    "Name": "izmir",
+    "NameCode": "izmir"
+  },
+  {
+    "Id": 36,
+    "Name": "kars",
+    "NameCode": "kars"
+  },
+  {
+    "Id": 37,
+    "Name": "kastamonu",
+    "NameCode": "kastamonu"
+  },
+  {
+    "Id": 38,
+    "Name": "kayseri",
+    "NameCode": "kayseri"
+  },
+  {
+    "Id": 39,
+    "Name": "kirklareli",
+    "NameCode": "kirklareli"
+  },
+  {
+    "Id": 40,
+    "Name": "kirşehir",
+    "NameCode": "kirsehir"
+  },
+  {
+    "Id": 41,
+    "Name": "kocaeli",
+    "NameCode": "kocaeli"
+  },
+  {
+    "Id": 42,
+    "Name": "konya",
+    "NameCode": "konya"
+  },
+  {
+    "Id": 43,
+    "Name": "kütahya",
+    "NameCode": "kutahya"
+  },
+  {
+    "Id": 44,
+    "Name": "malatya",
+    "NameCode": "malatya"
+  },
+  {
+    "Id": 45,
+    "Name": "manisa",
+    "NameCode": "manisa"
+  },
+  {
+    "Id": 46,
+    "Name": "kahramanmaraş",
+    "NameCode": "kahramanmaras"
+  },
+  {
+    "Id": 47,
+    "Name": "mardin",
+    "NameCode": "mardin"
+  },
+  {
+    "Id": 48,
+    "Name": "muğla",
+    "NameCode": "mugla"
+  },
+  {
+    "Id": 49,
+    "Name": "muş",
+    "NameCode": "mus"
+  },
+  {
+    "Id": 50,
+    "Name": "nevşehir",
+    "NameCode": "nevsehir"
+  },
+  {
+    "Id": 51,
+    "Name": "niğde",
+    "NameCode": "nigde"
+  },
+  {
+    "Id": 52,
+    "Name": "ordu",
+    "NameCode": "ordu"
+  },
+  {
+    "Id": 53,
+    "Name": "rize",
+    "NameCode": "rize"
+  },
+  {
+    "Id": 54,
+    "Name": "sakarya",
+    "NameCode": "sakarya"
+  },
+  {
+    "Id": 55,
+    "Name": "samsun",
+    "NameCode": "samsun"
+  },
+  {
+    "Id": 56,
+    "Name": "siirt",
+    "NameCode": "siirt"
+  },
+  {
+    "Id": 57,
+    "Name": "sinop",
+    "NameCode": "sinop"
+  },
+  {
+    "Id": 58,
+    "Name": "sivas",
+    "NameCode": "sivas"
+  },
+  {
+    "Id": 59,
+    "Name": "tekirdağ",
+    "NameCode": "tekirdag"
+  },
+  {
+    "Id": 60,
+    "Name": "tokat",
+    "NameCode": "tokat"
+  },
+  {
+    "Id": 61,
+    "Name": "trabzon",
+    "NameCode": "trabzon"
+  },
+  {
+    "Id": 62,
+    "Name": "tunceli",
+    "NameCode": "tunceli"
+  },
+  {
+    "Id": 63,
+    "Name": "şanliurfa",
+    "NameCode": "sanliurfa"
+  },
+  {
+    "Id": 64,
+    "Name": "uşak",
+    "NameCode": "usak"
+  },
+  {
+    "Id": 65,
+    "Name": "van",
+    "NameCode": "van"
+  },
+  {
+    "Id": 66,
+    "Name": "yozgat",
+    "NameCode": "yozgat"
+  },
+  {
+    "Id": 67,
+    "Name": "zonguldak",
+    "NameCode": "zonguldak"
+  },
+  {
+    "Id": 68,
+    "Name": "aksaray",
+    "NameCode": "aksaray"
+  },
+  {
+    "Id": 69,
+    "Name": "bayburt",
+    "NameCode": "bayburt"
+  },
+  {
+    "Id": 70,
+    "Name": "karaman",
+    "NameCode": "karaman"
+  },
+  {
+    "Id": 71,
+    "Name": "kirikkale",
+    "NameCode": "kirikkale"
+  },
+  {
+    "Id": 72,
+    "Name": "batman",
+    "NameCode": "batman"
+  },
+  {
+    "Id": 73,
+    "Name": "şirnak",
+    "NameCode": "sirnak"
+  },
+  {
+    "Id": 74,
+    "Name": "bartin",
+    "NameCode": "bartin"
+  },
+  {
+    "Id": 75,
+    "Name": "ardahan",
+    "NameCode": "ardahan"
+  },
+  {
+    "Id": 76,
+    "Name": "iğdir",
+    "NameCode": "igdir"
+  },
+  {
+    "Id": 77,
+    "Name": "yalova",
+    "NameCode": "yalova"
+  },
+  {
+    "Id": 78,
+    "Name": "karabük",
+    "NameCode": "karabuk"
+  },
+  {
+    "Id": 79,
+    "Name": "kilis",
+    "NameCode": "kilis"
+  },
+  {
+    "Id": 80,
+    "Name": "osmaniye",
+    "NameCode": "osmaniye"
+  },
+  {
+    "Id": 81,
+    "Name": "düzce",
+    "NameCode": "duzce"
+  }
+]

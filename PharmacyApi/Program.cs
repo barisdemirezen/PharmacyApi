@@ -1,3 +1,4 @@
+using PharmacyApi.Services.Common;
 using PharmacyApi.Services.Pharmacy;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -10,6 +11,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 builder.Services.AddSingleton<IPharmacyServices, PharmacyServices>();
+builder.Services.AddSingleton<ICommonServices, CommonServices>();
 
 var app = builder.Build();
 
