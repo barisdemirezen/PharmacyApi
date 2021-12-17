@@ -6,10 +6,11 @@ using System.Threading.Tasks;
 
 namespace PharmacyApi.Data.Common
 {
-    public class City
+    public class District
     {
         public int Id { get; set; }
         public string? Name { get; set; }
         public string? NameCode { get; set; }
+        public int CityId { get; set; }
     }
 }

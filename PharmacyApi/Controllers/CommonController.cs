@@ -21,5 +21,26 @@ namespace PharmacyApi.Controllers
         {
             return Ok(_commonServices.GetCityList());
         }
+
+        [HttpGet]
+        [Route("get-district-list-by-city/{cityId}")]
+        public IActionResult GetDistrictListByCity([FromRoute] int cityId)
+        {
+            if (cityId.GetType() != typeof(int))
+            {
+                return BadRequest("Lütfen geçerli bir plaka kodu giriniz");
+            }
+            try
+            {
+                var result = _commonServices.GetDistrictListByCity(cityId);
+                if (result == null || result.Count() == 0)
+                    return NotFound("Bu il kodu ile eşleşen ilçe bulunamadı.");
+                return Ok(result);
+            }
+            catch
+            {
+                return StatusCode(500);
+            }
+        }
     }
 }

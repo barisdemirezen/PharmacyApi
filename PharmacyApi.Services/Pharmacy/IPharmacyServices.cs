@@ -11,5 +11,7 @@ namespace PharmacyApi.Services.Pharmacy
     {
         public IEnumerable<PharmacyData> GetPharmacyByCity(int cityId);
         public IEnumerable<PharmacyData> GetPharmacyByCity(string cityNameShortCode);
+        public IEnumerable<PharmacyData> GetPharmacyByDistrict(int districtId);
+        public IEnumerable<PharmacyData> GetPharmacyByDistrict(string cityNameShortCode, string districtNameShortCode);
     }
 }
